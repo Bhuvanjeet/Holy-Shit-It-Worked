@@ -12,14 +12,13 @@ In this project , an automatic framework that extracts winning apparels from maj
 
 ![](Images/blockdiag.jpg)
 
-
 ## Solution choices for each sub-problem:
 
 **For sub-problem 1 i.e. object detection**, a unified embedding model system is used instead of using fine-grained/instance recognition, separate models for different verticals. While using separate models can help improve accuracy, it brings extra burden for model storage and deployment. Our unified embedding model model can achieve comparable retrieval accuracy as separate models, with the model complexity no bigger than a single specialized model. Also, unified embedding model is scalable. 
 
 Inception V2 is used as the base network, chosen mainly for efficiency reasons
 
-![](Images/netarch.png)
+![](Images/netarch.JPG)
 
 **For sub-problem 2 i.e. discover and forecast long-term trends of various fashion attributes**
  
@@ -46,4 +45,4 @@ The data flow is as follows:
 
 ![](Images/dataflow.png)
 
-**Link to the repository containing web-app** - https://github.com/kvothemaedre/FrontEnd-Flipkart.git 
+**Link to the repository containing web-app** - https://github.com/kvothemaedre/FrontEnd-Flipkart
