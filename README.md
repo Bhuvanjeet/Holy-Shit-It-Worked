@@ -2,7 +2,7 @@
 
 Flipkart Grid 2.0 Software Development Challenge Submission
 
-Checkout the Video Explanation of the repository at:- 
+Checkout the Video Explanation of the repository at:- https://drive.google.com/drive/folders/1F_HtVl-Nd4W8murKadAmetOQeiu6EALc?usp=sharing
 
 ## Project Overview:
 
