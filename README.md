@@ -10,7 +10,7 @@ In this project , an automatic framework that extracts winning apparels from maj
 
 ## Simple block diagram of service/components:
 
-![](Images/blockdiag.JPG)
+![](Images/blockdiag.jpg)
 
 
 ## Solution choices for each sub-problem:
@@ -19,7 +19,7 @@ In this project , an automatic framework that extracts winning apparels from maj
 
 Inception V2 is used as the base network, chosen mainly for efficiency reasons
 
-![](Images/netarch.JPG)
+![](Images/netarch.png)
 
 **For sub-problem 2 i.e. discover and forecast long-term trends of various fashion attributes**
  
@@ -31,19 +31,19 @@ Inception V2 is used as the base network, chosen mainly for efficiency reasons
  
 (d) We identify text and styles specific to each event.
 
-![](Images/fashionatt.PNG)
+![](Images/fashionatt.png)
 
 Multi-task CNN (GoogLeNet) is used for this purpose.
 
 **For sub-problem 3 i.e. Sentiment Classification from product reviews**, 
 the method usee is as follows:
 
-![](Images/sentiment.PNG)
+![](Images/sentiment.png)
 
 **For sub-problem 4 i.e. Deploying the ML model, Django REST framework is used.**
 
 The data flow is as follows:
 
-![](Images/dataflow.PNG)
+![](Images/dataflow.png)
 
 **Link to the repository containing web-app** - https://github.com/kvothemaedre/FrontEnd-Flipkart.git 
