@@ -35,7 +35,7 @@ Inception V2 is used as the base network, chosen mainly for efficiency reasons
 Multi-task CNN (GoogLeNet) is used for this purpose.
 
 **For sub-problem 3 i.e. Sentiment Classification from product reviews**, 
-the method usee is as follows:
+the method used is as follows:
 
 ![](Images/sentiment.png)
 
